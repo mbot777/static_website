@@ -1,0 +1,754 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kan Power Rubber Industries</title>
+  <link rel="icon" href="images/logo_cropped_image.png" type="image/x-icon">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles/styles.css">
+  <script src="scripts/scripts.js" defer></script>
+</head>
+
+<body>
+  <header>
+    <div class="appbar">
+      <img src="images/logo.jpg" alt="Kan Power Logo" class="logo">
+      <h1>Kan Power Rubber Industries</h1>
+      <div style="display: flex; flex-direction: column; align-items: flex-start;">
+        <a href="tel:+911234567890" class="contact-info"
+          style="display: flex; align-items: center; margin-bottom: 8px;">
+          <img src="images/Phone.png" alt="Call Now" class="icon" style="margin-right: 8px;">+91 9343645710
+        </a>
+        <a href="mailto:kanpowerblr@gmail.com" class="contact-info" style="display: flex; align-items: center;">
+          <img src="images/mail.png" alt="Email" class="icon" style="margin-right: 8px;">kanpowerblr@gmail.com
+        </a>
+      </div>
+
+    </div>
+
+    <!-- Navigator App Bar -->
+    <nav class="nav-bar">
+      <ul>
+        <li><button class="nav-button" onclick="showPage('home')">Home</button></li>
+        <li><button class="nav-button" onclick="showPage('products')">Products</button></li>
+        <li><button class="nav-button" onclick="showPage('contact-us')">Contact Us</button></li>
+        <li>
+          <!-- <a href="https://drive.google.com/uc?export=download&id=18xBKyms2UkYM_JfBLh0KbmImoSIv7Ced"> -->
+          <a href="https://drive.google.com/file/d/18xBKyms2UkYM_JfBLh0KbmImoSIv7Ced/view?usp=sharing" target="_blank">
+            <button class="nav-button" onclick="">
+              Catalog
+            </button>
+          </a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <div id="home" class="page-content active ">
+      <div id="about-us-wrapper">
+        <section class="about-us-section">
+          <h1 class="about-us-title">About Us</h1>
+          <div class="about-us-intro">
+            <h2 class="about-us-subtitle">Established Expertise in Rubber Solutions</h2>
+            <p class="about-us-text">
+              Since 1997, <strong>Kan Power Rubber Industries</strong> has been a trusted provider of
+              <span style="color: #B22330; font-weight: 600;">high-quality rubber products</span>.
+              With over 25 years of expertise, we have earned a reputation for understanding the diverse needs of our
+              clients and delivering <span style="color: #B22330; font-weight: 600;">exceptional products and
+                services</span>.
+            </p>
+          </div>
+          <div class="about-us-mission">
+            <h3 class="about-us-heading">Our Passion: <span style="color: #B22330; font-weight: 600;">Your
+                Success</span></h3>
+            <p class="about-us-text">
+              At <strong>Kan Power Rubber Industries</strong>, we are driven by a passion for rubber and its
+              transformative potential.
+              Our dedicated team works tirelessly to provide <span style="color: #B22330; font-weight: 600;">tailored
+                solutions</span> that meet your specific needs. From
+              rubber
+              sheets and mats to hose pipes and personal protective equipment (PPE), we are your <span
+                style="color: #B22330; font-weight: 600;">one-stop destination for reliable rubber solutions</span>.
+            </p>
+          </div>
+        </section>
+
+        <section class="why-choose-us-section">
+          <h2 class="why-choose-us-title">Why Choose Us?</h2>
+          <ul class="why-choose-us-list">
+            <li class="why-choose-us-item">
+              <strong>Unmatched Experience:</strong> With over two decades of industry experience, we possess in-depth
+              knowledge of rubber applications. Our expertise ensures you <span
+                style="color: #B22330; font-weight: 600;">receive the best solutions</span> and <span
+                style="color: #B22330; font-weight: 600;">advice</span> for your
+              needs.
+            </li>
+            <li class="why-choose-us-item">
+              <strong>Extensive Product Range:</strong> We offer a comprehensive selection of rubber products, including
+              sheets, mats,
+              hose pipes, and PPE. Save time and effort by <span style="color: #B22330; font-weight: 600;">finding
+                everything</span> in one place.
+            </li>
+            <li class="why-choose-us-item">
+              <strong>Unwavering Quality Commitment:</strong> Our products are <span
+                style="color: #B22330; font-weight: 600;">sourced from reliable suppliers</span> and
+              undergo strict
+              quality control, ensuring <span style="color: #B22330; font-weight: 600;">durability</span> and adherence
+              to the <span style="color: #B22330; font-weight: 600;">highest standards</span>.
+            </li>
+            <li class="why-choose-us-item">
+              <strong>Exceptional Customer Service:</strong> Our expert team is ready to assist with <span
+                style="color: #B22330; font-weight: 600;">personalized service</span> and advice,
+              helping you <span style="color: #B22330; font-weight: 600;">make informed decisions</span>.
+            </li>
+            <li class="why-choose-us-item">
+              <strong>Competitive Prices:</strong> We offer <span style="color: #B22330; font-weight: 600;">value-driven
+                pricing</span>, ensuring you <span style="color: #B22330; font-weight: 600;">receive top-quality</span>
+              products at competitive rates.
+            </li>
+          </ul>
+        </section>
+
+        <section class="iso-certification-section">
+          <h2 class="iso-certification-title">ISO Certification</h2>
+          <p class="iso-certification-text">
+            We proudly hold ISO certification, a testament to our commitment to quality and excellence.
+          </p>
+          <img src="images/ISOCertificate.png" alt="ISO Certification" class="iso-certification-image">
+        </section>
+      </div>
+    </div>
+
+    <!-- <div id="home" class="page-content active page-content-home-aboutus modern-about-us">
+      <div class="about-us-card">
+        <h1>About Us</h1>
+        <p>Kan Power Rubber Industries has been a leader in rubber product manufacturing for over 25 years...</p>
+        <p>
+          Kan Power Rubber Industries has been a leading supplier of industrial rubber products and safety equipment in
+          Bengaluru since 1997. We offer a comprehensive range including:
+        </p>
+
+        <ul class="about-us-list">
+          <li><strong>Rubber Sheets</strong> (Heavy Duty, Electrical Insulation, etc.)</li>
+          <li><strong>Hose Pipes</strong> (Industrial, Suction, Steam, etc.)</li>
+          <li><strong>Safety Equipment</strong> (for construction, industrial use, etc.)</li>
+          <li><strong>Ancillary Rubber Products</strong> (conveyor belts, V-Belts, etc.)</li>
+        </ul>
+
+        <div class="iso-section">
+          <h2>ISO Certification</h2>
+          <div class="iso-highlight">
+            <img src="images/ISOCertificate.jpg" alt="ISO Certificate" class="iso-image">
+          </div>
+        </div>
+
+        <p>
+          We are committed to high-quality products, competitive prices, and exceptional service. Our experienced team
+          is
+          here to help you find the perfect rubber and safety solutions for your needs.
+        </p>
+      </div>
+    </div> -->
+
+    <div id="contact-us" class="page-content page-content-home-aboutus">
+      <h1>Contact Us</h1>
+      <form id="contact-form" class="contact-form">
+        <div class="form-group">
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name" required placeholder="Enter your name" />
+        </div>
+        <div class="form-group">
+          <label for="company_name">Company Name</label>
+          <input type="text" id="company_name" name="company_name" required placeholder="Enter your Company Name" />
+        </div>
+        <div class="form-group">
+          <label for="contact">Email / Phone Number</label>
+          <input type="text" id="contact" name="contact" required placeholder="Enter your email or phone number" />
+        </div>
+        <div class="form-group">
+          <label>Select Products</label>
+          <div class="checkbox-group">
+            <label class="checkbox-label">
+              <input type="checkbox" name="products" value="Rubber Sheets" />
+              <span class="checkbox-custom"></span>
+              Rubber Sheets
+            </label>
+            <label class="checkbox-label">
+              <input type="checkbox" name="products" value="Conveyor Belts" />
+              <span class="checkbox-custom"></span>
+              Conveyor Belts
+            </label>
+            <label class="checkbox-label">
+              <input type="checkbox" name="products" value="Hose Pipes" />
+              <span class="checkbox-custom"></span>
+              Hose Pipes
+            </label>
+            <label class="checkbox-label">
+              <input type="checkbox" name="products" value="Industrial Hoses" />
+              <span class="checkbox-custom"></span>
+              Industrial Hoses
+            </label>
+            <label class="checkbox-label">
+              <input type="checkbox" name="products" value="Rubber Mats" />
+              <span class="checkbox-custom"></span>
+              Rubber Mats
+            </label>
+            <label class="checkbox-label">
+              <input type="checkbox" name="products" value="Water Stopper" />
+              <span class="checkbox-custom"></span>
+              Water Stopper
+            </label>
+            <label class="checkbox-label">
+              <input type="checkbox" name="products" value="Other Rubber Products" />
+              <span class="checkbox-custom"></span>
+              Other Rubber Products
+            </label>
+          </div>
+        </div>
+        <button type="submit" class="submit-button">Submit</button>
+      </form>
+    </div>
+
+    <!-- Tabs -->
+    <!-- <div class="tabs-container"> -->
+    <!-- TODO Change the geifht from being hard coded - hardcode the height of the heading - minimum height  -->
+    <div id="products" class="page-content">
+      <div class="hamburger" onclick="toggleTabs()">&#9776;</div> <!-- Hamburger icon -->
+      <div class="tabs" id="tabs">
+        <button class="tab-button" onclick="showCategory('rubber-sheets')">Rubber Sheets</button>
+        <button class="tab-button" onclick="showCategory('conveyor-belts')">Conveyor Belts</button>
+        <button class="tab-button" onclick="showCategory('hose-pipes')">Hose Pipes</button>
+        <button class="tab-button" onclick="showCategory('industrial-hoses')">Industrial Hoses</button>
+        <button class="tab-button" onclick="showCategory('rubber-mats')">Rubber Mats</button>
+        <button class="tab-button" onclick="showCategory('water-stopper')">Water Stopper</button>
+        <button class="tab-button" onclick="showCategory('other-products')">Other Rubber Products</button>
+      </div>
+
+      <!-- Category Content -->
+      <!-- done -->
+      <div id="rubber-sheets" class="category-content active">
+        <div class="product-item">
+          <img src="images/RS1.png" alt="Rubber Sheets">
+          <div class="product-info">
+            <h3>Electrical Insulation Mat</h3>
+            <!-- <p>This is a high-quality rubber sheet suitable for various applications.</p> -->
+          </div>
+        </div>
+        <div class="product-item">
+          <img src="images/RS2.png" alt="Rubber Sheets">
+          <div class="product-info">
+            <h3>Silicon Rubber Sheet</h3>
+            <!-- <p>This is a high-quality rubber sheet suitable for various applications.</p> -->
+          </div>
+        </div>
+        <div class="product-item">
+          <img src="images/RS3.png" alt="Rubber Sheets">
+          <div class="product-info">
+            <h3>NBR Rubber Sheet</h3>
+            <!-- <p>This is a high-quality rubber sheet suitable for various applications.</p> -->
+          </div>
+        </div>
+        <div class="product-item">
+          <img src="images/RS4.png" alt="Rubber Sheets">
+          <div class="product-info">
+            <h3>SBR Rubber Sheet</h3>
+            <!-- <p>This is a high-quality rubber sheet suitable for various applications.</p> -->
+          </div>
+        </div>
+        <div class="product-item">
+          <img src="images/RS5.png" alt="Rubber Sheets">
+          <div class="product-info">
+            <h3>EPDM Rubber Sheet</h3>
+            <!-- <p>This is a high-quality rubber sheet suitable for various applications.</p> -->
+          </div>
+        </div>
+        <div class="product-item">
+          <img src="images/RS6.png" alt="Rubber Sheets">
+          <div class="product-info">
+            <h3>Witon Sheet</h3>
+            <!-- <p>This is a high-quality rubber sheet suitable for various applications.</p> -->
+          </div>
+        </div>
+        <div class="product-item">
+          <img src="images/RS7.png" alt="Rubber Sheets">
+          <div class="product-info">
+            <h3>Neoprene Sheet</h3>
+            <!-- <p>This is a high-quality rubber sheet suitable for various applications.</p> -->
+          </div>
+        </div>
+        <!-- Add more product items... -->
+      </div>
+
+      <!-- done -->
+      <div id="conveyor-belts" class="category-content">
+        <div class="product-item">
+          <img src="images/c1.png" alt="Rubber Sheets">
+          <div class="product-info">
+            <h3>Heat Retardant Conveyor Belt</h3>
+            <!-- <p>This is a high-quality rubber sheet suitable for various applications.</p> -->
+          </div>
+        </div>
+        <div class="product-item">
+          <img src="images/c2.png" alt="Rubber Sheets">
+          <div class="product-info">
+            <h3>Flame Retardant Conveyor Belt</h3>
+            <!-- <p>This is a high-quality rubber sheet suitable for various applications.</p> -->
+          </div>
+        </div>
+        <div class="product-item">
+          <img src="images/c3.png" alt="Rubber Sheets">
+          <div class="product-info">
+            <h3>Chevron Conveyor Belt</h3>
+            <!-- <p>This is a high-quality rubber sheet suitable for various applications.</p> -->
+          </div>
+        </div>
+        <div class="product-item">
+          <img src="images/c4.png" alt="Rubber Sheets">
+          <div class="product-info">
+            <h3>General Duty Conveyor Belt</h3>
+            <!-- <p>This is a high-quality rubber sheet suitable for various applications.</p> -->
+          </div>
+        </div>
+        <div class="product-item">
+          <img src="images/c5.png" alt="Rubber Sheets">
+          <div class="product-info">
+            <h3>Pulley Lagging Sheet</h3>
+            <!-- <p>This is a high-quality rubber sheet suitable for various applications.</p> -->
+          </div>
+        </div>
+      </div>
+
+      <!-- done -->
+      <div id="industrial-hoses" class="category-content">
+        <div class="product-item">
+          <img src="images/IH1.jpg" alt="Rubber Sheets">
+          <div class="product-info">
+            <h3>Sand Blast/Short Blasting Hose</h3>
+            <!-- <p>This is a high-quality rubber sheet suitable for various applications.</p> -->
+          </div>
+        </div>
+        <div class="product-item">
+          <img src="images/IH2.png" alt="Rubber Sheets">
+          <div class="product-info">
+            <!-- <h3>Pneumatic Tool Hose</h3> -->
+            <h3>Carbon Free Hose/Furnace Coolent Hose</h3>
+            <!-- <p>This is a high-quality rubber sheet suitable for various applications.</p> -->
+          </div>
+        </div>
+        <!-- <div class="product-item">
+          <img src="images/IH3.png" alt="Rubber Sheets">
+          <div class="product-info">
+            <h3>Sand Blast/Shot Blasting Hose</h3>
+            <p>This is a high-quality rubber sheet suitable for various applications.</p>
+          </div>
+        </div> -->
+        <div class="product-item">
+          <img src="images/IH4.png" alt="Rubber Sheets">
+          <div class="product-info">
+            <!-- <h3>CARBON FREE HOSE/ FURNACE COOLANT HOSE</h3> -->
+            <h3>Cement Grounding/Fly Ash Hose</h3>
+            <!-- <p>This is a high-quality rubber sheet suitable for various applications.</p> -->
+          </div>
+        </div>
+        <div class="product-item">
+          <img src="images/IH5.png" alt="Rubber Sheets">
+          <div class="product-info">
+            <h3>Steam Rubber Hose</h3>
+            <!-- <p>This is a high-quality rubber sheet suitable for various applications.</p> -->
+          </div>
+        </div>
+        <div class="product-item">
+          <img src="images/IH6.png" alt="Rubber Sheets">
+          <div class="product-info">
+            <h3>Mud and Slurry Hose</h3>
+            <!-- <p>This is a high-quality rubber sheet suitable for various applications.</p> -->
+          </div>
+        </div>
+        <div class="product-item">
+          <img src="images/IH7.png" alt="Water Rubber Hose">
+          <div class="product-info">
+            <h3>Water Rubber Hose</h3>
+            <!-- <p>This is a high-quality rubber sheet suitable for various applications.</p> -->
+          </div>
+        </div>
+        <div class="product-item">
+          <img src="images/IH8.png" alt="Food and Rubber Hose">
+          <div class="product-info">
+            <h3>Food and Rubber Hose</h3>
+            <!-- <p>This is a high-quality rubber sheet suitable for various applications.</p> -->
+          </div>
+        </div>
+        <div class="product-item">
+          <img src="images/IH9.jpg" alt="Rock Drill Hose">
+          <div class="product-info">
+            <h3>Rock Drill Hose</h3>
+            <!-- <p>This is a high-quality rubber sheet suitable for various applications.</p> -->
+          </div>
+        </div>
+        <div class="product-item">
+          <img src="images/IH10.jpg" alt="Rock Drill Hose">
+          <div class="product-info">
+            <h3>Pneumatic Hose</h3>
+            <!-- <p>This is a high-quality rubber sheet suitable for various applications.</p> -->
+          </div>
+        </div>
+      </div>
+
+      <!-- done -->
+      <div id="hose-pipes" class="category-content">
+        <div class="product-item">
+          <img src="images/H1.png" alt="Rubber Sheets">
+          <div class="product-info">
+            <h3>PVC Thunder Spring Hose</h3>
+            <!-- <p>
+              A highly flexible and durable PVC hose, perfect for various applications requiring high-pressure and
+              abrasion resistance. Its spring-reinforced design ensures superior strength and longevity, ideal for
+              demanding industrial environments.</p> -->
+          </div>
+        </div>
+        <div class="product-item">
+          <img src="images/H2.png" alt="Rubber Sheets">
+          <div class="product-info">
+            <h3>Fabric Duct Hose</h3>
+            <!-- <p>A lightweight and flexible hose, ideal for ventilation and dust extraction systems. Its durable fabric
+              construction offers excellent resistance to abrasion and chemicals, making it suitable for various
+              industrial applications.</p> -->
+          </div>
+        </div>
+        <div class="product-item">
+          <img src="images/H3.png" alt="Rubber Sheets">
+          <div class="product-info">
+            <h3>NBR Insulation Foam Rubber Tube</h3>
+            <!-- <p>A high-performance thermal insulation material, offering excellent resistance to heat, cold, and
+              chemicals. Ideal for insulating pipes, valves, and other equipment to reduce energy loss and maintain
+              optimal operating temperatures. </p> -->
+          </div>
+        </div>
+        <div class="product-item">
+          <img src="images/H4.png" alt="Rubber Sheets">
+          <div class="product-info">
+            <h3>PU Duct Hose Pipe with Copper Wire</h3>
+            <!-- <p>A durable and flexible hose, designed for cable management and protection. Its polyurethane construction
+              provides excellent resistance to abrasion, oil, and chemicals, while the copper wire offers superior
+              electrical conductivity and shielding. </p> -->
+          </div>
+        </div>
+        <div class="product-item">
+          <img src="images/H5.png" alt="Rubber Sheets">
+          <div class="product-info">
+            <h3>Canvas Hose</h3>
+            <!-- <p>A heavy-duty hose, ideal for conveying abrasive materials and liquids. Its strong canvas construction
+              provides excellent resistance to wear and tear, making it suitable for demanding industrial applications.
+            </p> -->
+          </div>
+        </div>
+        <div class="product-item">
+          <img src="images/H6.png" alt="Rubber Sheets">
+          <div class="product-info">
+            <h3>Silicone Duct Hose</h3>
+            <!-- <p>A high-temperature and flexible hose, perfect for ventilation and exhaust systems. Its silicone
+              construction offers excellent resistance to heat, chemicals, and ozone, ensuring long-lasting performance
+              in harsh environments.
+            </p> -->
+          </div>
+        </div>
+        <div class="product-item">
+          <img src="images/H7.jpeg" alt="Rubber Sheets">
+          <div class="product-info">
+            <h3>LPG Hose</h3>
+            <!-- <p>A specialized hose, designed for the safe and efficient transfer of liquefied petroleum gas. Its durable
+              construction and leak-proof fittings ensure safety and reliability in domestic and commercial
+              applications.
+            </p> -->
+          </div>
+        </div>
+        <div class="product-item">
+          <img src="images/H8.png" alt="Rubber Sheets">
+          <div class="product-info">
+            <h3>PVC Nylon Braided Hose Pipe</h3>
+            <!-- <p>A versatile and durable hose, ideal for a wide range of applications, including hydraulic systems,
+              pneumatic tools, and general-purpose fluid transfer. Its nylon braid reinforcement provides excellent
+              strength and flexibility.
+            </p> -->
+          </div>
+        </div>
+        <div class="product-item">
+          <img src="images/H9.png" alt="Rubber Sheets">
+          <div class="product-info">
+            <h3>PVC Layflat Hose</h3>
+            <!-- <p>A lightweight and flexible hose, ideal for irrigation, drainage, and other fluid transfer applications.
+              Its lay-flat design allows for easy storage and transportation.
+            </p> -->
+          </div>
+        </div>
+        <div class="product-item">
+          <img src="images/H10.png" alt="Rubber Sheets">
+          <div class="product-info">
+            <h3>PVC Suction and Discharge Hose</h3>
+            <!-- <p>A durable and chemical-resistant hose, suitable for pumping water, chemicals, and other fluids. Its PVC
+              construction offers excellent resistance to abrasion, impact, and UV radiation.</p> -->
+          </div>
+        </div>
+        <div class="product-item">
+          <img src="images/H11.png" alt="Rubber Sheets">
+          <div class="product-info">
+            <h3>PVC Garden Hose </h3>
+            <!-- <p>A durable and flexible hose, ideal for watering plants, lawns, and other outdoor applications. Its PVC
+              construction offers resistance to UV rays, weather, and general wear and tear. </p> -->
+          </div>
+        </div>
+        <div class="product-item">
+          <img src="images/H12.png" alt="Rubber Sheets">
+          <div class="product-info">
+            <h3>PVC Rubber Welding Hose</h3>
+            <!-- <p>This is a high-quality rubber sheet suitable for various applications.</p> -->
+          </div>
+        </div>
+        <div class="product-item">
+          <img src="images/H13.png" alt="Rubber Sheets">
+          <div class="product-info">
+            <h3>PVC Clear Hose</h3>
+            <!-- <p>This is a high-quality rubber sheet suitable for various applications.</p> -->
+          </div>
+        </div>
+        <div class="product-item">
+          <img src="images/H14.png" alt="Rubber Sheets">
+          <div class="product-info">
+            <h3>PVC Transparent Tube</h3>
+            <!-- <p>This is a high-quality rubber sheet suitable for various applications.</p> -->
+          </div>
+        </div>
+        <div class="product-item">
+          <img src="images/H15.png" alt="Rubber Sheets">
+          <div class="product-info">
+            <h3>PVC Agricultural Spray Hose</h3>
+            <!-- <p>This is a high-quality rubber sheet suitable for various applications.</p> -->
+          </div>
+        </div>
+        <div class="product-item">
+          <img src="images/H16.png" alt="Rubber Sheets">
+          <div class="product-info">
+            <h3>Transparent PVC Duct Hose Pipe</h3>
+            <!-- <p>This is a high-quality rubber sheet suitable for various applications.</p> -->
+          </div>
+        </div>
+        <div class="product-item">
+          <img src="images/H17.png" alt="Rubber Sheets">
+          <div class="product-info">
+            <h3>Aluminium Flexible Duct Pipe</h3>
+            <!-- <p>This is a high-quality rubber sheet suitable for various applications.</p> -->
+          </div>
+        </div>
+
+      </div>
+
+      <!-- done -->
+      <div id="rubber-mats" class="category-content">
+        <div class="product-item">
+          <img src="images/m1.png" alt="Rubber Sheets">
+          <div class="product-info">
+            <h3>Cow Rubber Mat</h3>
+            <!-- <p>This is a high-quality rubber sheet suitable for various applications.</p> -->
+            <!-- <a href="#" class="product-link">View Details</a> -->
+            <!-- <a href="#" class="product-link">Buy Now</a> -->
+          </div>
+        </div>
+        <div class="product-item">
+          <img src="images/m2.png" alt="Rubber Sheets">
+          <div class="product-info">
+            <h3>Anti-Skid Rubber</h3>
+            <!-- <p>This is a high-quality rubber sheet suitable for various applications.</p> -->
+            <!-- <a href="#" class="product-link">View Details</a> -->
+            <!-- <a href="#" class="product-link">Buy Now</a> -->
+          </div>
+        </div>
+        <div class="product-item">
+          <img src="images/m3.png" alt="Rubber Sheets">
+          <div class="product-info">
+            <h3>Hollow Rubber Mat</h3>
+            <!-- <p>This is a high-quality rubber sheet suitable for various applications.</p> -->
+            <!-- <a href="#" class="product-link">View Details</a> -->
+            <!-- <a href="#" class="product-link">Buy Now</a> -->
+          </div>
+        </div>
+        <div class="product-item">
+          <img src="images/m4.png" alt="Rubber Sheets">
+          <div class="product-info">
+            <h3>Rubber raised Cork Sheet</h3>
+            <!-- <p>This is a high-quality rubber sheet suitable for various applications.</p> -->
+            <!-- <a href="#" class="product-link">View Details</a> -->
+            <!-- <a href="#" class="product-link">Buy Now</a> -->
+          </div>
+        </div>
+        <div class="product-item">
+          <img src="images/m5.png" alt="Rubber Sheets">
+          <div class="product-info">
+            <h3>PVS Transparent Strip Curtain</h3>
+            <!-- <p>This is a high-quality rubber sheet suitable for various applications.</p> -->
+            <!-- <a href="#" class="product-link">View Details</a> -->
+            <!-- <a href="#" class="product-link">Buy Now</a> -->
+          </div>
+        </div>
+        <div class="product-item">
+          <img src="images/m6.png" alt="Rubber Sheets">
+          <div class="product-info">
+            <h3>Flat Ribbed Mat</h3>
+            <!-- <p>This is a high-quality rubber sheet suitable for various applications.</p> -->
+            <!-- <a href="#" class="product-link">View Details</a> -->
+            <!-- <a href="#" class="product-link">Buy Now</a> -->
+          </div>
+        </div>
+        <div class="product-item">
+          <img src="images/m7.png" alt="Rubber Sheets">
+          <div class="product-info">
+            <h3>PVC Transparent Sheet</h3>
+            <!-- <p>This is a high-quality rubber sheet suitable for various applications.</p> -->
+            <!-- <a href="#" class="product-link">View Details</a> -->
+            <!-- <a href="#" class="product-link">Buy Now</a> -->
+          </div>
+        </div>
+      </div>
+
+      <!-- done -->
+      <div id="water-stopper" class="category-content">
+        <div class="other-product-item">
+          <img src="images/w1.png" alt="Rubber Sheets">
+        </div>
+        <div class="other-product-item">
+          <img src="images/w2.png" alt="Rubber Sheets">
+        </div>
+      </div>
+      <div id="other-products" class="category-content">
+        <div
+          style="display: flex; flex-direction: column; align-items: center; width: 100%; padding: 15px; margin: 10px;">
+          <h2 style="text-align: center; color: #B22330; margin: 40px 0; margin-top:0px">Beading</h2>
+          <div style="display: flex; flex-wrap: wrap; width: 100%; gap: 40px; justify-content: center;">
+            <div class="other-product-item"
+              style="background-color: #fff; padding: 15px; border-radius: 10px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); text-align: center; flex: 1 1 250px; max-width: 400px; transition: transform 0.3s ease, box-shadow 0.3s ease;">
+              <img src="images/b1.png" alt="Rubber Sheets"
+                style="width: 100%; height: auto; object-fit: cover; border-radius: 10px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);">
+              <div class="product-info" style="margin-top: 10px;">
+                <!-- <h3 style="margin: 10px 0; font-size: 18px; color: #B22330;">Beading 1</h3> -->
+                <!-- <p style="font-size: 14px; color: #666666;">This is a high-quality rubber sheet suitable for various
+                  applications.</p> -->
+              </div>
+            </div>
+            <div class="other-product-item"
+              style="background-color: #fff; padding: 15px; border-radius: 10px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); text-align: center; flex: 1 1 250px; max-width: 400px; transition: transform 0.3s ease, box-shadow 0.3s ease;">
+              <img src="images/b2.png" alt="Rubber Sheets"
+                style="width: 100%; height: auto; object-fit: cover; border-radius: 10px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);">
+              <div class="product-info" style="margin-top: 10px;">
+                <!-- <h3 style="margin: 10px 0; font-size: 18px; color: #B22330;">Beading 2</h3> -->
+                <!-- <p style="font-size: 14px; color: #666666;">This is a high-quality rubber sheet suitable for various
+                  applications.</p> -->
+              </div>
+            </div>
+            <div class="other-product-item"
+              style="background-color: #fff; padding: 15px; border-radius: 10px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); text-align: center; flex: 1 1 250px; max-width: 400px; transition: transform 0.3s ease, box-shadow 0.3s ease;">
+              <img src="images/b3.png" alt="Rubber Sheets"
+                style="width: 100%; height: auto; object-fit: cover; border-radius: 10px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);">
+              <div class="product-info" style="margin-top: 10px;">
+                <!-- <h3 style="margin: 10px 0; font-size: 18px; color: #B22330;">Beading 2</h3> -->
+                <!-- <p style="font-size: 14px; color: #666666;">This is a high-quality rubber sheet suitable for various -->
+                <!-- applications.</p> -->
+              </div>
+            </div>
+          </div>
+
+          <h2 style="text-align: center; color: #B22330; margin: 40px 0;">Rubber Pads</h2>
+          <div
+            style="display: flex; flex-wrap: wrap; width: 100%; gap: 40px; justify-content: center; margin-bottom: 15px;">
+            <div class="other-product-item"
+              style="background-color: #fff; padding: 15px; border-radius: 10px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); text-align: center; flex: 1 1 250px; max-width: 400px; transition: transform 0.3s ease, box-shadow 0.3s ease;">
+              <img src="images/p1.png" alt="Rubber Sheets"
+                style="width: 100%; height: auto; object-fit: cover; border-radius: 10px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);">
+              <div class="product-info" style="margin-top: 10px;">
+                <!-- <h3 style="margin: 10px 0; font-size: 18px; color: #B22330;">Beading 1</h3> -->
+                <!-- <p style="font-size: 14px; color: #666666;">This is a high-quality rubber sheet suitable for various
+                  applications.</p> -->
+              </div>
+            </div>
+          </div>
+
+          <h2 style="text-align: center; color: #B22330; margin: 40px 0;">Gasket and Seals</h2>
+          <div style="display: flex; flex-wrap: wrap; width: 100%; gap: 40px; justify-content: center;">
+            <div class="other-product-item"
+              style="background-color: #fff; padding: 15px; border-radius: 10px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); text-align: center; flex: 1 1 250px; max-width: 400px; transition: transform 0.3s ease, box-shadow 0.3s ease;">
+              <img src="images/g1.png" alt="Rubber Sheets"
+                style="width: 100%; height: auto; object-fit: cover; border-radius: 10px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);">
+              <div class="product-info" style="margin-top: 10px;">
+                <!-- <h3 style="margin: 10px 0; font-size: 18px; color: #B22330;">Gasket 1</h3> -->
+                <!-- <p style="font-size: 14px; color: #666666;">This is a high-quality rubber sheet suitable for various
+                  applications.</p> -->
+              </div>
+            </div>
+            <div class="other-product-item"
+              style="background-color: #fff; padding: 15px; border-radius: 10px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); text-align: center; flex: 1 1 250px; max-width: 400px; transition: transform 0.3s ease, box-shadow 0.3s ease;">
+              <img src="images/g2.png" alt="Rubber Sheets"
+                style="width: 100%; height: auto; object-fit: cover; border-radius: 10px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);">
+              <div class="product-info" style="margin-top: 10px;">
+                <!-- <h3 style="margin: 10px 0; font-size: 18px; color: #B22330;">Gasket 2</h3> -->
+                <!-- <p style="font-size: 14px; color: #666666;">This is a high-quality rubber sheet suitable for various
+                  applications.</p> -->
+              </div>
+            </div>
+          </div>
+
+
+        </div>
+      </div>
+
+      <!-- Add other categories in the same pattern -->
+    </div>
+
+  </main>
+
+  <footer>
+    <div class="footer-bar">
+      <div>
+        <a href="https://wa.me/+919343645710" style="text-decoration: none; color:black;" target="_blank"
+          onmouseover="this.style.textDecoration='underline';" onmouseout="this.style.textDecoration='none';">
+          <img src="images/whatsapp.png" alt="WhatsApp" class="icon">+91 9343645710
+        </a>
+      </div>
+
+      <div>
+        <a href="https://www.google.com/maps/place/Kan+Power+Rubber+Industries/@12.9652755,77.5791757,15z/data=!4m2!3m1!1s0x0:0x8291fecfcc764dc2?sa=X&ved=1t:2428&ictx=111"
+          style="text-decoration: none; color:black;" target="_blank"
+          onmouseover="this.style.textDecoration='underline';" onmouseout="this.style.textDecoration='none';">
+          <img src="images/google-maps_2642502.png" alt="Google Maps" class="icon">Location
+        </a>
+      </div>
+
+      <div>
+        <a href="mailto:kanpowerblr@gmail.com" style="text-decoration: none; color:black;"
+          onmouseover="this.style.textDecoration='underline';" onmouseout="this.style.textDecoration='none';"
+          onFocus="this.style.textDecoration='underline';">
+          <img src="images/mail.png" alt="Gmail" class="icon">kanpowerblr@gmail.com
+        </a>
+      </div>
+
+      <div>
+        <div style="display: flex; align-items: center; margin: 0px;">
+          <img src="images/Phone.png" alt="Call Now" class="icon">
+          <div style="display: flex; flex-direction: column; margin: 0px;">
+            <a href="tel:+919343645710" style="text-decoration: none; color:black;"
+              onmouseover="this.style.textDecoration='underline';" onmouseout="this.style.textDecoration='none';">+91
+              93436 45710</a>
+            <a href="tel:+918892980480" style="text-decoration: none; color:black;"
+              onmouseover="this.style.textDecoration='underline';" onmouseout="this.style.textDecoration='none';">+91
+              88929 80480</a>
+            <a href="tel:+919886826488" style="text-decoration: none; color:black;"
+              onmouseover="this.style.textDecoration='underline';" onmouseout="this.style.textDecoration='none';">+91
+              98868 26488</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+</body>
+
+</html>

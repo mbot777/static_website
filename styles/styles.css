@@ -1,0 +1,1147 @@
+.nav-bar {
+    background-color: #ffffff;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.nav-bar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.nav-bar li {
+    margin: 0 15px;
+}
+
+.nav-button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    padding: 10px;
+    color: #333;
+    transition: color 0.3s ease;
+}
+
+.nav-button:hover {
+    color: #B22330;
+}
+
+.nav-button.active {
+    color: #B22330;
+    font-weight: bold;
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: #f5f5f5;
+}
+
+main {
+    flex: 1;
+    /* Pushes the footer to the bottom */
+}
+
+/* Unique styles for About Us */
+.modern-about-us {
+    background-color: #f9f9f9;
+    padding: 30px 15px;
+}
+
+.about-us-card {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px 30px;
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: left;
+    line-height: 1.8;
+    color: #333;
+    font-family: 'Roboto', sans-serif;
+}
+
+.about-us-card h1 {
+    font-size: 2em;
+    color: #B22330;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.about-us-card p {
+    margin-bottom: 16px;
+    font-size: 1.1em;
+    color: #444;
+}
+
+.about-us-list {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.about-us-list li {
+    font-size: 1em;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.about-us-list li::before {
+    content: "✓";
+    color: #B22330;
+    font-weight: bold;
+    margin-right: 8px;
+}
+
+.iso-section h2 {
+    font-size: 1.5em;
+    color: #444;
+    margin-top: 25px;
+    text-align: center;
+}
+
+.iso-highlight {
+    padding: 15px;
+    border: 2px dashed #B22330;
+    background-color: #fffdfd;
+    display: inline-block;
+    margin: 15px auto;
+    border-radius: 8px;
+    text-align: center;
+    max-width: 400px;
+}
+
+.iso-image {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin: 10px auto;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .about-us-card {
+        padding: 15px 20px;
+    }
+
+    .about-us-card h1 {
+        font-size: 1.8em;
+    }
+
+    .about-us-list li {
+        font-size: 0.95em;
+    }
+
+    .iso-section h2 {
+        font-size: 1.3em;
+    }
+}
+
+
+.appbar {
+    background-color: #FFFFFF;
+    color: #2C2C2C;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.logo {
+    padding: 15px;
+    width: 100px;
+    height: auto;
+    margin-right: 10px;
+    margin-left: 90px;
+}
+
+
+h1 {
+    font-size: 1.78em;
+    color: #B22330;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    flex-grow: 1;
+    text-align: center;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+}
+
+
+.contact-info {
+    margin-right: 15px;
+    padding-right: 15px;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #2C2C2C;
+    font-size: 1.2em;
+}
+
+@media (max-width: 768px) {
+    .appbar {
+        justify-content: center;
+    }
+
+    h1 {
+        display: none;
+    }
+
+    .contact-info {
+        display: none;
+    }
+
+    .logo {
+        margin: 0;
+    }
+}
+
+.icon {
+    width: 27px;
+    height: auto;
+    margin-right: 5px;
+    vertical-align: middle;
+}
+
+.page-content {
+    display: none;
+}
+
+.page-content-home-aboutus {
+    text-align: center;
+    padding: 20px 10px;
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    line-height: 1.6;
+}
+
+.page-content-home-aboutus h1 {
+    font-size: 1.8em;
+    color: #222;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+}
+
+.page-content-home-aboutus p {
+    margin-bottom: 12px;
+}
+
+.page-content-home-aboutus ul {
+    list-style-type: none;
+    padding-left: 0;
+    margin-bottom: 20px;
+}
+
+.page-content-home-aboutus ul li {
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+.page-content-home-aboutus ul li strong {
+    color: #000;
+}
+
+.iso-highlight {
+    padding: 10px;
+    border: 2px solid #4CAF50;
+    background-color: #f9f9f9;
+    display: inline-block;
+    margin-top: 15px;
+    border-radius: 6px;
+}
+
+.iso_image {
+    display: block;
+    margin: 10px auto;
+}
+
+
+@media (max-width: 768px) {
+    .page-content-home-aboutus {
+        padding: 20px;
+        font-size: 16px;
+    }
+
+    .page-content-home-aboutus h1 {
+        font-size: 28px;
+    }
+
+    .iso-image {
+        width: 300px;
+    }
+}
+
+.page-content.active {
+    display: block;
+}
+
+.contact-us-page {
+    text-align: center;
+    padding: 20px;
+}
+
+.contact-form {
+    max-width: 400px;
+    margin: 0 auto;
+    background: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input[type="text"] {
+    width: 95%;
+    /* Full width inputs */
+    padding: 10px;
+    /* Inner padding for inputs */
+    border: 1px solid #ccc;
+    /* Light border */
+    border-radius: 5px;
+    /* Slightly rounded corners */
+    font-size: 14px;
+    /* Consistent font size */
+}
+
+input[type="text"]:focus {
+    border-color: #007bff;
+    /* Change border color on focus */
+    outline: none;
+    /* Remove outline */
+}
+
+.checkbox-group {
+    display: flex;
+    flex-direction: column;
+    /* Stack checkboxes vertically */
+}
+
+.checkbox-label {
+    display: flex;
+    align-items: center;
+    /* Align checkbox and label */
+    margin-bottom: 10px;
+    /* Space between checkboxes */
+    cursor: pointer;
+    /* Pointer cursor for labels */
+}
+
+input[type="checkbox"] {
+    display: none;
+    /* Hide default checkbox */
+}
+
+.checkbox-custom {
+    width: 20px;
+    /* Size of custom checkbox */
+    height: 20px;
+    /* Size of custom checkbox */
+    border: 2px solid #007bff;
+    /* Border color */
+    border-radius: 4px;
+    /* Rounded corners */
+    margin-right: 10px;
+    /* Space between checkbox and label */
+    position: relative;
+    /* Position for custom checkbox */
+}
+
+input[type="checkbox"]:checked+.checkbox-custom {
+    background-color: #007bff;
+    /* Background color when checked */
+}
+
+input[type="checkbox"]:checked+.checkbox-custom:after {
+    content: '';
+    /* Create a checkmark */
+    position: absolute;
+    left: 8px;
+    /* Adjusted to position the tick correctly */
+    top: 2px;
+    /* Adjusted for vertical centering */
+    width: 4px;
+    /* Width of the checkmark */
+    height: 10px;
+    /* Height of the checkmark */
+    border: solid white;
+    /* Checkmark color */
+    border-width: 0 2px 2px 0;
+    /* Checkmark shape */
+    transform: rotate(45deg);
+    /* Rotate to form a check */
+}
+
+
+.submit-button {
+    background-color: #007bff;
+    /* Primary button color */
+    color: white;
+    /* White text */
+    border: none;
+    /* No border */
+    border-radius: 5px;
+    /* Rounded corners */
+    padding: 10px 15px;
+    /* Button padding */
+    cursor: pointer;
+    /* Pointer cursor on hover */
+    font-size: 16px;
+    /* Slightly larger font for the button */
+    transition: background-color 0.3s;
+    /* Smooth transition for hover effect */
+}
+
+.submit-button:hover {
+    background-color: #0056b3;
+    /* Darker shade on hover */
+}
+
+@media (max-width: 600px) {
+    .contact-form {
+        width: 90%;
+        /* Responsive width for smaller screens */
+    }
+}
+
+@media (max-width: 600px) {
+    .contact-form {
+        width: 90%;
+        /* Responsive width for smaller screens */
+    }
+}
+
+
+/* Tabs Styling */
+.tabs {
+    display: flex;
+    justify-content: center;
+    /* Center the tabs */
+    background-color: #e5e5e5;
+    /* Light grey background */
+    padding: 5px;
+    /* Space around the tabs */
+    flex-wrap: wrap;
+    /* Allow tabs to wrap on smaller screens */
+    position: sticky;
+    /* Make the tabs sticky */
+    top: 0;
+    /* Stick to the top of the viewport */
+    z-index: 1000;
+    /* Ensure it stays on top of other content */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    /* Subtle shadow for depth */
+}
+
+/* Tab Button Styling */
+.tab-button {
+    background-color: #ffffff;
+    /* White background for tabs */
+    border: 1px solid #d1d1d1;
+    /* Light grey border */
+    border-radius: 25px;
+    /* Rounded corners */
+    padding: 10px 20px;
+    /* Padding for buttons */
+    cursor: pointer;
+    color: #333;
+    /* Dark grey text */
+    transition: all 0.3s ease;
+    /* Smooth transition for hover effects */
+    margin: 5px;
+    /* Space between tabs */
+    font-size: 16px;
+    /* Larger font size */
+    min-width: 120px;
+    /* Minimum width for each tab */
+}
+
+/* Hover Effect */
+.tab-button:hover {
+    background-color: #B22330;
+    /* Red background on hover */
+    color: #ffffff;
+    /* White text on hover */
+    border: 1px solid #B22330;
+    /* Change border color on hover */
+}
+
+/* Active Tab Styling */
+.tab-button.active {
+    background-color: #B22330;
+    /* Red background for active tab */
+    color: #ffffff;
+    /* White text for active tab */
+    border: 1px solid #B22330;
+    /* Keep border color consistent */
+}
+
+/* Tabs Container Styling */
+.tabs-container {
+    position: relative;
+    /* Position relative for absolute positioning of the tabs */
+}
+
+/* Hamburger Menu Styling */
+.hamburger {
+    display: none;
+    /* Hidden by default */
+    font-size: 24px;
+    /* Icon size */
+    cursor: pointer;
+    /* Pointer on hover */
+    padding: 10px;
+    /* Padding around icon */
+    background-color: #e5e5e5;
+    /* Match background of tabs */
+    z-index: 1001;
+    /* Ensure it stays above other elements */
+}
+
+/* Show hamburger menu on smaller screens */
+@media (max-width: 768px) {
+
+
+    .tabs.active {
+        display: flex;
+        /* Show tabs when activated */
+    }
+}
+
+
+/* Category Content Styling */
+.category-content {
+    display: none;
+    /* width: 100%; */
+    /* Hide all by default */
+}
+
+category-content h2 {
+    text-align: center;
+    /* Centering the heading */
+    color: #B22330;
+    /* Adding some margin for spacing */
+    margin: 40px 0;
+    /* Adding some margin for spacing */
+}
+
+.category-content.active {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    /* Responsive grid layout */
+    gap: 40px;
+    padding: 15px;
+    margin: 10px;
+    justify-items: center;
+    align-items: start;
+}
+
+/* Product Item Styling */
+.product-item {
+    /* height: 342px;    */
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 100%;
+    max-width: 400px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.product-item img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.product-item img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+/* Other Product Item Styling */
+.other-product-item {
+    /* height: 342px;    */
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 100%;
+    max-width: 400px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.other-product-item img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.other-product-item img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+
+/* Product Info Styling */
+.product-info {
+    margin-top: 10px;
+}
+
+.product-info h3 {
+    margin: 10px 0;
+    font-size: 18px;
+    color: #B22330;
+    /* minimum height */
+    min-height: 40px;
+    /* Red from the logo */
+}
+
+.product-info p {
+    font-size: 14px;
+    color: #666666;
+}
+
+.product-link {
+    display: inline-block;
+    margin: 10px 5px;
+    padding: 8px 16px;
+    background-color: #B22330;
+    /* Red button */
+    color: #fff;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.product-link:hover {
+    background-color: #8F1A26;
+    /* Darker red on hover */
+}
+
+
+/* Footer Styling */
+.footer-bar {
+    background-color: #e5e5e5;
+    padding: 20px;
+    text-align: center;
+}
+
+.footer-bar div {
+    display: inline-block;
+    padding: 5px;
+    margin: 0 20px;
+    text-decoration: none;
+    color: #333;
+    font-size: 16px;
+    vertical-align: middle;
+}
+
+.footer-bar .icon {
+    width: 25px;
+    height: 25px;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+
+
+
+/* Wrapper for scoping */
+#about-us-wrapper {
+    font-family: 'Roboto', sans-serif;
+    background-color: #ffffff;
+    color: #333;
+    padding: 40px;
+    max-width: 1200px;
+    margin: 40px auto;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+/* General Section Titles */
+.about-us-title,
+.why-choose-us-title,
+.iso-certification-title {
+    font-size: 2.2rem;
+    font-weight: 700;
+    color: #222;
+    text-align: center;
+    margin-bottom: 25px;
+    position: relative;
+}
+
+.about-us-title::after,
+.why-choose-us-title::after,
+.iso-certification-title::after {
+    content: "";
+    display: block;
+    width: 60px;
+    height: 4px;
+    background-color: #f76c6c;
+    margin: 10px auto 0;
+    border-radius: 2px;
+}
+
+/* About Us Section */
+.about-us-subtitle {
+    font-size: 1.8rem;
+    font-weight: 600;
+    color: #555;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.about-us-text {
+    font-size: 1.1rem;
+    color: #444;
+    line-height: 1.8;
+    margin-bottom: 20px;
+    text-align: justify;
+}
+
+.about-us-heading {
+    font-size: 1.6rem;
+    font-weight: 600;
+    color: #444;
+    margin-bottom: 15px;
+}
+
+.about-us-intro,
+.about-us-mission {
+    padding: 20px 40px;
+    margin-bottom: 20px;
+    background: #f9f9f9;
+    border-radius: 8px;
+    border: 1px solid #eee;
+}
+
+/* Why Choose Us Section */
+.why-choose-us-list {
+    margin-top: 10px;
+    padding-left: 40px;
+    list-style: none;
+    counter-reset: list-counter;
+}
+
+.why-choose-us-item {
+    font-size: 1.1rem;
+    color: #555;
+    margin-bottom: 15px;
+    position: relative;
+}
+
+.why-choose-us-item::before {
+    counter-increment: list-counter;
+    content: counter(list-counter) ".";
+    position: absolute;
+    left: -25px;
+    font-weight: 600;
+    color: #f76c6c;
+}
+
+/* ISO Certification Section */
+.iso-certification-section {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.iso-certification-text {
+    font-size: 1rem;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.iso-certification-image {
+    display: block;
+    margin: 0 auto;
+    max-width: 750px;
+    height: auto;
+}
+
+/* Spacing for Small Screens */
+@media (max-width: 768px) {
+    #about-us-wrapper {
+        padding: 20px;
+    }
+
+    .about-us-title,
+    .why-choose-us-title,
+    .iso-certification-title {
+        font-size: 1.8rem;
+    }
+
+    .about-us-text,
+    .why-choose-us-item {
+        font-size: 1rem;
+    }
+
+    .about-us-intro,
+    .about-us-mission {
+        padding: 15px 20px;
+    }
+}
+
+/* --- Updated Responsive Adjustments --- */
+
+/* Global Adjustments for Smaller Screens */
+@media (max-width: 768px) {
+    body {
+        font-size: 14px;
+        /* Slightly smaller default font for better readability */
+    }
+
+    h1 {
+        font-size: 1.5em;
+        /* Slightly smaller main heading */
+    }
+
+    .contact-info {
+        font-size: 1em;
+        /* Smaller contact info */
+    }
+
+    .icon {
+        width: 20px;
+        /* Smaller icons */
+        height: 20px;
+    }
+
+}
+
+/* Navigation Bar Responsiveness */
+@media (max-width: 768px) {
+    .nav-bar {
+        padding: 5px;
+        background-color: #f0f0f0;
+        /* Light gray background for the navigation bar */
+        border-bottom: 1px solid #e0e0e0;
+        /* Subtle border at the bottom */
+        transition: all 0.3s ease;
+        /* Add transition for effects */
+    }
+
+    .nav-bar ul {
+        flex-direction: column;
+        align-items: center;
+        padding: 0;
+        transition: all 0.3s ease;
+        /* Add transition for effects */
+
+    }
+
+    .nav-bar li {
+        margin: 5px 0;
+        display: flex;
+        justify-content: center;
+        transition: all 0.3s ease;
+        /* Add transition for effects */
+
+    }
+
+    .nav-button {
+        font-size: 16px;
+        padding: 8px;
+        width: 90%;
+        /* Make the button fill its container */
+        margin: 0 5%;
+        /* Keep the buttons centered */
+        transition: all 0.3s ease;
+        /* Add transition for effects */
+        text-align: center;
+    }
+
+    .nav-button:hover {
+        background-color: #f0f0f0;
+        color: #B22330;
+        /* keep color consistent */
+    }
+
+
+}
+
+/* Header and App Bar Responsiveness */
+@media (max-width: 768px) {
+
+    .appbar {
+        flex-direction: column;
+        /* Stack logo, title, and contact info */
+        align-items: center;
+        padding: 10px;
+    }
+
+    .logo {
+        margin-left: 0;
+        width: 80px;
+    }
+
+    .appbar h1 {
+        font-size: 1.3em;
+        /* Make the heading smaller for smaller screens */
+        margin: 10px 0;
+        text-align: center;
+        /* Center the heading */
+    }
+
+    .appbar .contact-info {
+        margin-right: 0px;
+        padding-right: 0px;
+    }
+
+    .appbar .contact-info:first-child {
+        margin-bottom: 5px;
+    }
+
+}
+
+/* Page Content (About Us, Contact) Responsiveness */
+@media (max-width: 768px) {
+
+    .page-content-home-aboutus {
+        padding: 15px;
+    }
+
+    .page-content-home-aboutus h1 {
+        font-size: 1.5em;
+    }
+}
+
+/* Contact Form Responsiveness */
+@media (max-width: 768px) {
+    .contact-form {
+        max-width: 90%;
+        /* Make form take up more width on smaller screens */
+        padding: 15px;
+    }
+
+    .form-group {
+        margin-bottom: 10px;
+        /* Less space between form items */
+    }
+
+    input[type="text"] {
+        width: 92%;
+        /* Full width inputs */
+        font-size: 13px;
+        padding: 8px;
+        /* Inner padding for inputs */
+
+    }
+
+    .checkbox-custom {
+        width: 16px;
+        /* Smaller size */
+        height: 16px;
+        margin-right: 5px;
+    }
+
+    .checkbox-label {
+        font-size: 13px;
+    }
+
+    .submit-button {
+        font-size: 14px;
+        padding: 8px 12px;
+    }
+}
+
+/* Product Tabs Responsiveness */
+@media (max-width: 768px) {
+
+    .tabs {
+        position: relative;
+        flex-direction: column;
+        /* Stack tabs vertically */
+        align-items: flex-start;
+        overflow-y: auto;
+        padding: 0;
+        max-height: 0;
+        /* Start with no height */
+        overflow: hidden;
+        /* Hide overflowing content */
+        transition: max-height 0.3s ease, padding 0.3s ease;
+    }
+
+    .tabs.active {
+        display: flex;
+        max-height: 1000px;
+        /* Expand to a large height for displaying all tabs */
+        padding: 0;
+        /* Show the tabs */
+    }
+
+    .tab-button {
+        display: block;
+        /* Make buttons fill the width */
+        text-align: center;
+        margin: 5px 5px;
+        border-radius: 0;
+        min-width: 0;
+        border: 1px solid #d1d1d1;
+        font-size: 14px;
+    }
+
+
+    .category-content {
+        padding: 5px;
+    }
+}
+
+/* Corrected Hamburger Menu Styling */
+@media (max-width: 768px) {
+    .hamburger {
+        display: block;
+        font-size: 0; /* Hide the original content */
+        cursor: pointer;
+        padding: 10px;
+        background-color: #f0f0f0;
+        /* Same as navbar */
+        z-index: 1001;
+        position: sticky;
+        top: 0;
+        width: 100%;
+        text-align: right;
+        box-sizing: border-box;
+        border-bottom: 1px solid #e0e0e0;
+        transition: all 0.3s ease;
+    }
+
+    /* Hamburger Icon Styling */
+    .hamburger::before {
+        content: '\2630';
+        /* Unicode for a hamburger icon */
+        display: inline-block;
+        font-size: 28px;
+        transition: transform 0.3s ease;
+        color: #333;
+        /* Dark gray color for the hamburger */
+    }
+
+    .hamburger:hover::before {
+        color: #B22330;
+        transform: scale(1.1)
+            /* scale for slight animation */
+    }
+
+
+}
+/* Product Item Responsiveness */
+@media (max-width: 768px) {
+    .product-item {
+        padding: 10px;
+    }
+
+    .product-item img {
+        width: 100%;
+    }
+
+    .product-info h3 {
+        font-size: 16px;
+    }
+
+    .product-info p {
+        font-size: 13px;
+    }
+
+    .other-product-item {
+        padding: 10px;
+    }
+
+    .other-product-item img {
+        width: 100%;
+    }
+
+}
+
+/* Footer Responsiveness */
+@media (max-width: 768px) {
+    .footer-bar {
+        padding: 10px;
+        flex-direction: column;
+    }
+
+    .footer-bar div {
+        margin: 5px 0px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+}
+
+/*About Us Section Responsiveness*/
+@media (max-width: 768px) {
+    #about-us-wrapper {
+        padding: 15px;
+        margin: 20px auto;
+    }
+
+    .about-us-title,
+    .why-choose-us-title,
+    .iso-certification-title {
+        font-size: 1.8rem;
+        margin-bottom: 20px;
+    }
+
+    .about-us-subtitle {
+        font-size: 1.3rem;
+    }
+
+    .about-us-text,
+    .why-choose-us-item {
+        font-size: 0.9rem;
+    }
+
+    .about-us-intro,
+    .about-us-mission {
+        padding: 10px 15px;
+    }
+
+    .why-choose-us-list {
+        padding-left: 25px;
+    }
+
+    .why-choose-us-item::before {
+        left: -15px;
+    }
+
+    .iso-certification-image {
+        max-width: 100%;
+    }
+}
